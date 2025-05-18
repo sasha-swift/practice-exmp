@@ -244,7 +244,7 @@ def cutText():
 editmenu = Menu(menubar)
 editmenu.add_command(label="Копировать", command=copyText)
 editmenu.add_command(label="Вставить", command=pasteText)
-editmenu.add_command(label="Вырезить", command=cutText)
+editmenu.add_command(label="Вырезать", command=cutText)
 menubar.add_cascade(label="Редактировать", menu=editmenu)
 ```
 > Классические команды редактирования.
@@ -358,7 +358,7 @@ menubar.add_cascade(label="Файл", menu=filemenu)
 editmenu = Menu(menubar)
 editmenu.add_command(label="Копировать", command=copyText) 
 editmenu.add_command(label="Вставить", command=pasteText)
-editmenu.add_command(label="Вырезить", command=cutText)
+editmenu.add_command(label="Вырезать", command=cutText)
 menubar.add_cascade(label="Редактировать", menu=editmenu)
 
 # Подменю "Тема"
